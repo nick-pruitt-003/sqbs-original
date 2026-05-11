@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2854F03014BCB46A00CCF703 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2854F02F14BCB46A00CCF703 /* Cocoa.framework */; };
+		2854F03A14BCB46A00CCF703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2854F03814BCB46A00CCF703 /* InfoPlist.strings */; };
+		2854F03C14BCB46A00CCF703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F03B14BCB46A00CCF703 /* main.m */; };
+		2854F04014BCB46B00CCF703 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2854F03E14BCB46B00CCF703 /* Credits.rtf */; };
+		2854F04314BCB46B00CCF703 /* Tournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F04214BCB46B00CCF703 /* Tournament.m */; };
+		2854F04614BCB46B00CCF703 /* Tournament.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2854F04414BCB46B00CCF703 /* Tournament.xib */; };
+		2854F04914BCB46B00CCF703 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2854F04714BCB46B00CCF703 /* MainMenu.xib */; };
+		2854F05014BCB54300CCF703 /* SQBSicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2854F04F14BCB54300CCF703 /* SQBSicon.icns */; };
+		2854F07514BCB6DA00CCF703 /* SQBS Help in Resources */ = {isa = PBXBuildFile; fileRef = 2854F07414BCB6DA00CCF703 /* SQBS Help */; };
+		2854F08314BCB6F900CCF703 /* importTeam.png in Resources */ = {isa = PBXBuildFile; fileRef = 2854F07914BCB6F900CCF703 /* importTeam.png */; };
+		2854F08414BCB6F900CCF703 /* newTournament.png in Resources */ = {isa = PBXBuildFile; fileRef = 2854F07A14BCB6F900CCF703 /* newTournament.png */; };
+		2854F08514BCB6F900CCF703 /* openTournament.png in Resources */ = {isa = PBXBuildFile; fileRef = 2854F07B14BCB6F900CCF703 /* openTournament.png */; };
+		2854F08714BCB6F900CCF703 /* saveTournament.png in Resources */ = {isa = PBXBuildFile; fileRef = 2854F07D14BCB6F900CCF703 /* saveTournament.png */; };
+		2854F08814BCB6F900CCF703 /* sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 2854F07E14BCB6F900CCF703 /* sort.png */; };
+		2854F08914BCB6F900CCF703 /* swapTeam.png in Resources */ = {isa = PBXBuildFile; fileRef = 2854F07F14BCB6F900CCF703 /* swapTeam.png */; };
+		2854F08A14BCB6F900CCF703 /* webReports.png in Resources */ = {isa = PBXBuildFile; fileRef = 2854F08014BCB6F900CCF703 /* webReports.png */; };
+		2854F0D314BCC49600CCF703 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0C014BCC49600CCF703 /* Game.m */; };
+		2854F0D414BCC49600CCF703 /* GameEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0C214BCC49600CCF703 /* GameEntryViewController.m */; };
+		2854F0D514BCC49600CCF703 /* Individuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0C414BCC49600CCF703 /* Individuals.m */; };
+		2854F0D614BCC49600CCF703 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0C614BCC49600CCF703 /* Player.m */; };
+		2854F0D714BCC49600CCF703 /* ReportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0C814BCC49600CCF703 /* ReportsViewController.m */; };
+		2854F0D814BCC49600CCF703 /* RoundData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0CA14BCC49600CCF703 /* RoundData.m */; };
+		2854F0D914BCC49600CCF703 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0CC14BCC49600CCF703 /* SettingsViewController.m */; };
+		2854F0DA14BCC49600CCF703 /* SortGameToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0CE14BCC49600CCF703 /* SortGameToolbarItem.m */; };
+		2854F0DB14BCC49600CCF703 /* Standing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0D014BCC49600CCF703 /* Standing.m */; };
+		2854F0DC14BCC49600CCF703 /* TournamentSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854F0D214BCC49600CCF703 /* TournamentSetupViewController.m */; };
+		2854F0E614BCC4D600CCF703 /* GameEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2854F0DE14BCC4D600CCF703 /* GameEntryViewController.xib */; };
+		2854F0E714BCC4D600CCF703 /* ReportsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2854F0E014BCC4D600CCF703 /* ReportsViewController.xib */; };
+		2854F0E814BCC4D600CCF703 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2854F0E214BCC4D600CCF703 /* SettingsViewController.xib */; };
+		2854F0E914BCC4D600CCF703 /* TournamentSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2854F0E414BCC4D600CCF703 /* TournamentSetupViewController.xib */; };
+		2862CBE914C5DC8C00060AE6 /* MergeFileWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862CBE814C5DC8C00060AE6 /* MergeFileWindowController.m */; };
+		2862CBEC14C5DCD900060AE6 /* MergeFileWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2862CBEB14C5DCD900060AE6 /* MergeFileWindow.xib */; };
+		28707D1814BE01E500C47CA0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28707D1714BE01E500C47CA0 /* WebKit.framework */; };
+		2885663014ED4DCA00E506E4 /* SQBS_ScoringIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2885662F14ED4DCA00E506E4 /* SQBS_ScoringIcon.icns */; };
+		28982B6014C23E8200502EDF /* TournamentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28982B5E14C23E8200502EDF /* TournamentViewController.m */; };
+		28E0095B14C8E725003F24E9 /* TournamentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0095A14C8E724003F24E9 /* TournamentAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		098179A223A2916B002734A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Tournament.xib; sourceTree = "<group>"; };
+		098179A323A2916B002734A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		098179A423A2916B002734A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TournamentSetupViewController.xib; sourceTree = "<group>"; };
+		098179A523A2916B002734A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GameEntryViewController.xib; sourceTree = "<group>"; };
+		098179A623A2916B002734A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReportsViewController.xib; sourceTree = "<group>"; };
+		098179A723A2916B002734A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SettingsViewController.xib; sourceTree = "<group>"; };
+		280FA22B14F2D9E500BF2BF8 /* GameResultDisplayWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResultDisplayWindowController.h; sourceTree = "<group>"; };
+		280FA22C14F2D9E500BF2BF8 /* GameResultDisplayWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResultDisplayWindowController.m; sourceTree = "<group>"; };
+		280FA22D14F2D9E500BF2BF8 /* GameResultDisplayWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameResultDisplayWindowController.xib; sourceTree = "<group>"; };
+		2854F02B14BCB46A00CCF703 /* SQBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2854F02F14BCB46A00CCF703 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2854F03214BCB46A00CCF703 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2854F03314BCB46A00CCF703 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2854F03414BCB46A00CCF703 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2854F03714BCB46A00CCF703 /* SQBS2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQBS2-Info.plist"; sourceTree = "<group>"; };
+		2854F03914BCB46A00CCF703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2854F03B14BCB46A00CCF703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2854F03D14BCB46B00CCF703 /* SQBS2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQBS2-Prefix.pch"; sourceTree = "<group>"; };
+		2854F03F14BCB46B00CCF703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2854F04114BCB46B00CCF703 /* Tournament.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tournament.h; sourceTree = "<group>"; };
+		2854F04214BCB46B00CCF703 /* Tournament.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tournament.m; sourceTree = "<group>"; };
+		2854F04F14BCB54300CCF703 /* SQBSicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SQBSicon.icns; sourceTree = "<group>"; };
+		2854F07414BCB6DA00CCF703 /* SQBS Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SQBS Help"; sourceTree = "<group>"; };
+		2854F07914BCB6F900CCF703 /* importTeam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = importTeam.png; path = images/importTeam.png; sourceTree = "<group>"; };
+		2854F07A14BCB6F900CCF703 /* newTournament.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newTournament.png; path = images/newTournament.png; sourceTree = "<group>"; };
+		2854F07B14BCB6F900CCF703 /* openTournament.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = openTournament.png; path = images/openTournament.png; sourceTree = "<group>"; };
+		2854F07D14BCB6F900CCF703 /* saveTournament.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveTournament.png; path = images/saveTournament.png; sourceTree = "<group>"; };
+		2854F07E14BCB6F900CCF703 /* sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sort.png; path = images/sort.png; sourceTree = "<group>"; };
+		2854F07F14BCB6F900CCF703 /* swapTeam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swapTeam.png; path = images/swapTeam.png; sourceTree = "<group>"; };
+		2854F08014BCB6F900CCF703 /* webReports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = webReports.png; path = images/webReports.png; sourceTree = "<group>"; };
+		2854F0BF14BCC49600CCF703 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		2854F0C014BCC49600CCF703 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		2854F0C114BCC49600CCF703 /* GameEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEntryViewController.h; sourceTree = "<group>"; };
+		2854F0C214BCC49600CCF703 /* GameEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameEntryViewController.m; sourceTree = "<group>"; };
+		2854F0C314BCC49600CCF703 /* Individuals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Individuals.h; sourceTree = "<group>"; };
+		2854F0C414BCC49600CCF703 /* Individuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Individuals.m; sourceTree = "<group>"; };
+		2854F0C514BCC49600CCF703 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2854F0C614BCC49600CCF703 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2854F0C714BCC49600CCF703 /* ReportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsViewController.h; sourceTree = "<group>"; };
+		2854F0C814BCC49600CCF703 /* ReportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsViewController.m; sourceTree = "<group>"; };
+		2854F0C914BCC49600CCF703 /* RoundData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundData.h; sourceTree = "<group>"; };
+		2854F0CA14BCC49600CCF703 /* RoundData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundData.m; sourceTree = "<group>"; };
+		2854F0CB14BCC49600CCF703 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2854F0CC14BCC49600CCF703 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2854F0CD14BCC49600CCF703 /* SortGameToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortGameToolbarItem.h; sourceTree = "<group>"; };
+		2854F0CE14BCC49600CCF703 /* SortGameToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortGameToolbarItem.m; sourceTree = "<group>"; };
+		2854F0CF14BCC49600CCF703 /* Standing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Standing.h; sourceTree = "<group>"; };
+		2854F0D014BCC49600CCF703 /* Standing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Standing.m; sourceTree = "<group>"; };
+		2854F0D114BCC49600CCF703 /* TournamentSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentSetupViewController.h; sourceTree = "<group>"; };
+		2854F0D214BCC49600CCF703 /* TournamentSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentSetupViewController.m; sourceTree = "<group>"; };
+		28564BED14DF022C00F2E391 /* PublishWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishWindowController.h; sourceTree = "<group>"; };
+		28564BEE14DF022C00F2E391 /* PublishWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishWindowController.m; sourceTree = "<group>"; };
+		28564BF014DF023F00F2E391 /* PublishWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PublishWindow.xib; sourceTree = "<group>"; };
+		2862CBE714C5DC8C00060AE6 /* MergeFileWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeFileWindowController.h; sourceTree = "<group>"; };
+		2862CBE814C5DC8C00060AE6 /* MergeFileWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeFileWindowController.m; sourceTree = "<group>"; };
+		2862CBEB14C5DCD900060AE6 /* MergeFileWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MergeFileWindow.xib; sourceTree = "<group>"; };
+		28707D1714BE01E500C47CA0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2885662F14ED4DCA00E506E4 /* SQBS_ScoringIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SQBS_ScoringIcon.icns; sourceTree = "<group>"; };
+		28982B5D14C23E8200502EDF /* TournamentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentViewController.h; sourceTree = "<group>"; };
+		28982B5E14C23E8200502EDF /* TournamentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentViewController.m; sourceTree = "<group>"; };
+		28E0095914C8E724003F24E9 /* TournamentAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TournamentAppDelegate.h; sourceTree = "<group>"; };
+		28E0095A14C8E724003F24E9 /* TournamentAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TournamentAppDelegate.m; sourceTree = "<group>"; };
+		28E54CB214F31E270048AAF5 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2854F02814BCB46A00CCF703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28707D1814BE01E500C47CA0 /* WebKit.framework in Frameworks */,
+				2854F03014BCB46A00CCF703 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2854F02014BCB46A00CCF703 = {
+			isa = PBXGroup;
+			children = (
+				2854F04F14BCB54300CCF703 /* SQBSicon.icns */,
+				2885662F14ED4DCA00E506E4 /* SQBS_ScoringIcon.icns */,
+				2854F03514BCB46A00CCF703 /* SQBS2 */,
+				2854F02E14BCB46A00CCF703 /* Frameworks */,
+				2854F02C14BCB46A00CCF703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2854F02C14BCB46A00CCF703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2854F02B14BCB46A00CCF703 /* SQBS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2854F02E14BCB46A00CCF703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28707D1714BE01E500C47CA0 /* WebKit.framework */,
+				2854F02F14BCB46A00CCF703 /* Cocoa.framework */,
+				2854F03114BCB46A00CCF703 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2854F03114BCB46A00CCF703 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2854F03214BCB46A00CCF703 /* AppKit.framework */,
+				2854F03314BCB46A00CCF703 /* CoreData.framework */,
+				2854F03414BCB46A00CCF703 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2854F03514BCB46A00CCF703 /* SQBS2 */ = {
+			isa = PBXGroup;
+			children = (
+				28E54CB214F31E270048AAF5 /* Constants.h */,
+				28E0095914C8E724003F24E9 /* TournamentAppDelegate.h */,
+				28E0095A14C8E724003F24E9 /* TournamentAppDelegate.m */,
+				2854F04114BCB46B00CCF703 /* Tournament.h */,
+				2854F04214BCB46B00CCF703 /* Tournament.m */,
+				2854F04414BCB46B00CCF703 /* Tournament.xib */,
+				2854F04714BCB46B00CCF703 /* MainMenu.xib */,
+				28982B5D14C23E8200502EDF /* TournamentViewController.h */,
+				28982B5E14C23E8200502EDF /* TournamentViewController.m */,
+				2854F0D114BCC49600CCF703 /* TournamentSetupViewController.h */,
+				2854F0D214BCC49600CCF703 /* TournamentSetupViewController.m */,
+				2854F0E414BCC4D600CCF703 /* TournamentSetupViewController.xib */,
+				2854F0C114BCC49600CCF703 /* GameEntryViewController.h */,
+				2854F0C214BCC49600CCF703 /* GameEntryViewController.m */,
+				2854F0DE14BCC4D600CCF703 /* GameEntryViewController.xib */,
+				2854F0C714BCC49600CCF703 /* ReportsViewController.h */,
+				2854F0C814BCC49600CCF703 /* ReportsViewController.m */,
+				2854F0E014BCC4D600CCF703 /* ReportsViewController.xib */,
+				2854F0CB14BCC49600CCF703 /* SettingsViewController.h */,
+				2854F0CC14BCC49600CCF703 /* SettingsViewController.m */,
+				2854F0E214BCC4D600CCF703 /* SettingsViewController.xib */,
+				2854F0CD14BCC49600CCF703 /* SortGameToolbarItem.h */,
+				2854F0CE14BCC49600CCF703 /* SortGameToolbarItem.m */,
+				2862CBE714C5DC8C00060AE6 /* MergeFileWindowController.h */,
+				2862CBE814C5DC8C00060AE6 /* MergeFileWindowController.m */,
+				2862CBEB14C5DCD900060AE6 /* MergeFileWindow.xib */,
+				28564BED14DF022C00F2E391 /* PublishWindowController.h */,
+				28564BEE14DF022C00F2E391 /* PublishWindowController.m */,
+				28564BF014DF023F00F2E391 /* PublishWindow.xib */,
+				280FA22B14F2D9E500BF2BF8 /* GameResultDisplayWindowController.h */,
+				280FA22C14F2D9E500BF2BF8 /* GameResultDisplayWindowController.m */,
+				280FA22D14F2D9E500BF2BF8 /* GameResultDisplayWindowController.xib */,
+				2854F0BF14BCC49600CCF703 /* Game.h */,
+				2854F0C014BCC49600CCF703 /* Game.m */,
+				2854F0C514BCC49600CCF703 /* Player.h */,
+				2854F0C614BCC49600CCF703 /* Player.m */,
+				2854F0CF14BCC49600CCF703 /* Standing.h */,
+				2854F0D014BCC49600CCF703 /* Standing.m */,
+				2854F0C314BCC49600CCF703 /* Individuals.h */,
+				2854F0C414BCC49600CCF703 /* Individuals.m */,
+				2854F0C914BCC49600CCF703 /* RoundData.h */,
+				2854F0CA14BCC49600CCF703 /* RoundData.m */,
+				2854F03614BCB46A00CCF703 /* Supporting Files */,
+			);
+			path = SQBS2;
+			sourceTree = "<group>";
+		};
+		2854F03614BCB46A00CCF703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2854F07614BCB6E000CCF703 /* Images */,
+				2854F07414BCB6DA00CCF703 /* SQBS Help */,
+				2854F03714BCB46A00CCF703 /* SQBS2-Info.plist */,
+				2854F03814BCB46A00CCF703 /* InfoPlist.strings */,
+				2854F03B14BCB46A00CCF703 /* main.m */,
+				2854F03D14BCB46B00CCF703 /* SQBS2-Prefix.pch */,
+				2854F03E14BCB46B00CCF703 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2854F07614BCB6E000CCF703 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2854F07914BCB6F900CCF703 /* importTeam.png */,
+				2854F07A14BCB6F900CCF703 /* newTournament.png */,
+				2854F07B14BCB6F900CCF703 /* openTournament.png */,
+				2854F07D14BCB6F900CCF703 /* saveTournament.png */,
+				2854F07E14BCB6F900CCF703 /* sort.png */,
+				2854F07F14BCB6F900CCF703 /* swapTeam.png */,
+				2854F08014BCB6F900CCF703 /* webReports.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2854F02A14BCB46A00CCF703 /* SQBS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2854F04C14BCB46B00CCF703 /* Build configuration list for PBXNativeTarget "SQBS" */;
+			buildPhases = (
+				28367DF714D86B5B00C3F083 /* ShellScript */,
+				2854F02714BCB46A00CCF703 /* Sources */,
+				2854F02814BCB46A00CCF703 /* Frameworks */,
+				2899993014C0B18D0077A0EE /* ShellScript */,
+				2854F02914BCB46A00CCF703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQBS;
+			productName = SQBS2;
+			productReference = 2854F02B14BCB46A00CCF703 /* SQBS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2854F02214BCB46A00CCF703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 2854F02514BCB46A00CCF703 /* Build configuration list for PBXProject "SQBS2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2854F02014BCB46A00CCF703;
+			productRefGroup = 2854F02C14BCB46A00CCF703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2854F02A14BCB46A00CCF703 /* SQBS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2854F02914BCB46A00CCF703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2854F03A14BCB46A00CCF703 /* InfoPlist.strings in Resources */,
+				2854F04014BCB46B00CCF703 /* Credits.rtf in Resources */,
+				2854F04614BCB46B00CCF703 /* Tournament.xib in Resources */,
+				2854F04914BCB46B00CCF703 /* MainMenu.xib in Resources */,
+				2854F05014BCB54300CCF703 /* SQBSicon.icns in Resources */,
+				2854F07514BCB6DA00CCF703 /* SQBS Help in Resources */,
+				2854F08314BCB6F900CCF703 /* importTeam.png in Resources */,
+				2854F08414BCB6F900CCF703 /* newTournament.png in Resources */,
+				2854F08514BCB6F900CCF703 /* openTournament.png in Resources */,
+				2854F08714BCB6F900CCF703 /* saveTournament.png in Resources */,
+				2854F08814BCB6F900CCF703 /* sort.png in Resources */,
+				2854F08914BCB6F900CCF703 /* swapTeam.png in Resources */,
+				2854F08A14BCB6F900CCF703 /* webReports.png in Resources */,
+				2854F0E614BCC4D600CCF703 /* GameEntryViewController.xib in Resources */,
+				2854F0E714BCC4D600CCF703 /* ReportsViewController.xib in Resources */,
+				2854F0E814BCC4D600CCF703 /* SettingsViewController.xib in Resources */,
+				2854F0E914BCC4D600CCF703 /* TournamentSetupViewController.xib in Resources */,
+				2862CBEC14C5DCD900060AE6 /* MergeFileWindow.xib in Resources */,
+				2885663014ED4DCA00E506E4 /* SQBS_ScoringIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28367DF714D86B5B00C3F083 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "touch -cm /Users/neil/Documents/Development/SQBS/SQBS2/SQBS Help";
+		};
+		2899993014C0B18D0077A0EE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" ${PROJECT_DIR}/\"$PROJECT_NAME\"/\"$PROJECT_NAME\"-Info.plist)\n#set just the revision number on release builds\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" ${PROJECT_DIR}/\"$PROJECT_NAME\"/\"$PROJECT_NAME\"-Info.plist\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2854F02714BCB46A00CCF703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2854F03C14BCB46A00CCF703 /* main.m in Sources */,
+				2854F04314BCB46B00CCF703 /* Tournament.m in Sources */,
+				2854F0D314BCC49600CCF703 /* Game.m in Sources */,
+				2854F0D414BCC49600CCF703 /* GameEntryViewController.m in Sources */,
+				2854F0D514BCC49600CCF703 /* Individuals.m in Sources */,
+				2854F0D614BCC49600CCF703 /* Player.m in Sources */,
+				2854F0D714BCC49600CCF703 /* ReportsViewController.m in Sources */,
+				2854F0D814BCC49600CCF703 /* RoundData.m in Sources */,
+				2854F0D914BCC49600CCF703 /* SettingsViewController.m in Sources */,
+				2854F0DA14BCC49600CCF703 /* SortGameToolbarItem.m in Sources */,
+				2854F0DB14BCC49600CCF703 /* Standing.m in Sources */,
+				2854F0DC14BCC49600CCF703 /* TournamentSetupViewController.m in Sources */,
+				28982B6014C23E8200502EDF /* TournamentViewController.m in Sources */,
+				2862CBE914C5DC8C00060AE6 /* MergeFileWindowController.m in Sources */,
+				28E0095B14C8E725003F24E9 /* TournamentAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2854F03814BCB46A00CCF703 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2854F03914BCB46A00CCF703 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2854F03E14BCB46B00CCF703 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2854F03F14BCB46B00CCF703 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2854F04414BCB46B00CCF703 /* Tournament.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098179A223A2916B002734A1 /* Base */,
+			);
+			name = Tournament.xib;
+			sourceTree = "<group>";
+		};
+		2854F04714BCB46B00CCF703 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098179A323A2916B002734A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2854F0DE14BCC4D600CCF703 /* GameEntryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098179A523A2916B002734A1 /* Base */,
+			);
+			name = GameEntryViewController.xib;
+			sourceTree = "<group>";
+		};
+		2854F0E014BCC4D600CCF703 /* ReportsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098179A623A2916B002734A1 /* Base */,
+			);
+			name = ReportsViewController.xib;
+			sourceTree = "<group>";
+		};
+		2854F0E214BCC4D600CCF703 /* SettingsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098179A723A2916B002734A1 /* Base */,
+			);
+			name = SettingsViewController.xib;
+			sourceTree = "<group>";
+		};
+		2854F0E414BCC4D600CCF703 /* TournamentSetupViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				098179A423A2916B002734A1 /* Base */,
+			);
+			name = TournamentSetupViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2854F04A14BCB46B00CCF703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		2854F04B14BCB46B00CCF703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		2854F04D14BCB46B00CCF703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQBS2/SQBS2-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SQBS2/SQBS2-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deckdirector.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2854F04E14BCB46B00CCF703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQBS2/SQBS2-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SQBS2/SQBS2-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deckdirector.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2854F02514BCB46A00CCF703 /* Build configuration list for PBXProject "SQBS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2854F04A14BCB46B00CCF703 /* Debug */,
+				2854F04B14BCB46B00CCF703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2854F04C14BCB46B00CCF703 /* Build configuration list for PBXNativeTarget "SQBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2854F04D14BCB46B00CCF703 /* Debug */,
+				2854F04E14BCB46B00CCF703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2854F02214BCB46A00CCF703 /* Project object */;
+}

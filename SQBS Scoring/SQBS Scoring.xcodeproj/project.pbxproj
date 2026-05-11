@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2842BBD714EB60AF004834E2 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 2842BBD614EB60AF004834E2 /* trash.png */; };
+		284F5C7B14EDBA4A00448CA4 /* scoringTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 284F5C7914EDBA4A00448CA4 /* scoringTab.png */; };
+		284F5C7C14EDBA4A00448CA4 /* setupTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 284F5C7A14EDBA4A00448CA4 /* setupTab.png */; };
+		28A6D08E14DD84A7005C42DC /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A6D08614DD84A7005C42DC /* Connection.m */; };
+		28A6D08F14DD84A7005C42DC /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A6D08914DD84A7005C42DC /* Server.m */; };
+		28A6D09014DD84A7005C42DC /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A6D08B14DD84A7005C42DC /* ServerBrowser.m */; };
+		28F02F9C14EC08FE00E07BE3 /* GameFileContents.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F02F9314EC08FE00E07BE3 /* GameFileContents.m */; };
+		28F02F9D14EC08FE00E07BE3 /* GameResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F02F9514EC08FE00E07BE3 /* GameResult.m */; };
+		28F02F9E14EC08FE00E07BE3 /* PointsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F02F9714EC08FE00E07BE3 /* PointsResult.m */; };
+		28F02F9F14EC08FE00E07BE3 /* PublishedTournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F02F9914EC08FE00E07BE3 /* PublishedTournament.m */; };
+		28F02FA014EC08FE00E07BE3 /* TossupResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F02F9B14EC08FE00E07BE3 /* TossupResult.m */; };
+		28F20F7214DCB4A900B372EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F20F7114DCB4A900B372EE /* UIKit.framework */; };
+		28F20F7414DCB4A900B372EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F20F7314DCB4A900B372EE /* Foundation.framework */; };
+		28F20F7614DCB4A900B372EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F20F7514DCB4A900B372EE /* CoreGraphics.framework */; };
+		28F20F7C14DCB4A900B372EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28F20F7A14DCB4A900B372EE /* InfoPlist.strings */; };
+		28F20F7E14DCB4A900B372EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F20F7D14DCB4A900B372EE /* main.m */; };
+		28F20F8214DCB4A900B372EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F20F8114DCB4A900B372EE /* AppDelegate.m */; };
+		28F20F8514DCB4A900B372EE /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F20F8414DCB4A900B372EE /* SetupViewController.m */; };
+		28F20F8C14DCB4A900B372EE /* ScoringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F20F8B14DCB4A900B372EE /* ScoringViewController.m */; };
+		28F20F9314DCB4A900B372EE /* SetupViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F20F9114DCB4A900B372EE /* SetupViewController_iPhone.xib */; };
+		28F20F9614DCB4A900B372EE /* SetupViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F20F9414DCB4A900B372EE /* SetupViewController_iPad.xib */; };
+		28F20F9914DCB4A900B372EE /* ScoringViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F20F9714DCB4A900B372EE /* ScoringViewController_iPhone.xib */; };
+		28F20F9C14DCB4A900B372EE /* ScoringViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F20F9A14DCB4A900B372EE /* ScoringViewController_iPad.xib */; };
+		28F20FA314DCB4C300B372EE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F20FA214DCB4C300B372EE /* Icon.png */; };
+		28F20FA514DCB4C700B372EE /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F20FA414DCB4C700B372EE /* Icon@2x.png */; };
+		28F20FA714DCB4CF00B372EE /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F20FA614DCB4CF00B372EE /* Icon-72.png */; };
+		28F20FAB14DCB61600B372EE /* SetupViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F20FA914DCB61600B372EE /* SetupViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2842BBD614EB60AF004834E2 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		284F5C7914EDBA4A00448CA4 /* scoringTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoringTab.png; sourceTree = "<group>"; };
+		284F5C7A14EDBA4A00448CA4 /* setupTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setupTab.png; sourceTree = "<group>"; };
+		285C1CE614E07B5400DE792F /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
+		28A6D08514DD84A7005C42DC /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		28A6D08614DD84A7005C42DC /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		28A6D08714DD84A7005C42DC /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		28A6D08814DD84A7005C42DC /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		28A6D08914DD84A7005C42DC /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		28A6D08A14DD84A7005C42DC /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
+		28A6D08B14DD84A7005C42DC /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
+		28A6D08C14DD84A7005C42DC /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		28F02F9114EC08E200E07BE3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "../../SQBS Common/Constants.h"; sourceTree = "<group>"; };
+		28F02F9214EC08FE00E07BE3 /* GameFileContents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameFileContents.h; path = "../../SQBS Common/GameFileContents.h"; sourceTree = "<group>"; };
+		28F02F9314EC08FE00E07BE3 /* GameFileContents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameFileContents.m; path = "../../SQBS Common/GameFileContents.m"; sourceTree = "<group>"; };
+		28F02F9414EC08FE00E07BE3 /* GameResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameResult.h; path = "../../SQBS Common/GameResult.h"; sourceTree = "<group>"; };
+		28F02F9514EC08FE00E07BE3 /* GameResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameResult.m; path = "../../SQBS Common/GameResult.m"; sourceTree = "<group>"; };
+		28F02F9614EC08FE00E07BE3 /* PointsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointsResult.h; path = "../../SQBS Common/PointsResult.h"; sourceTree = "<group>"; };
+		28F02F9714EC08FE00E07BE3 /* PointsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PointsResult.m; path = "../../SQBS Common/PointsResult.m"; sourceTree = "<group>"; };
+		28F02F9814EC08FE00E07BE3 /* PublishedTournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublishedTournament.h; path = "../../SQBS Common/PublishedTournament.h"; sourceTree = "<group>"; };
+		28F02F9914EC08FE00E07BE3 /* PublishedTournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublishedTournament.m; path = "../../SQBS Common/PublishedTournament.m"; sourceTree = "<group>"; };
+		28F02F9A14EC08FE00E07BE3 /* TossupResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TossupResult.h; path = "../../SQBS Common/TossupResult.h"; sourceTree = "<group>"; };
+		28F02F9B14EC08FE00E07BE3 /* TossupResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TossupResult.m; path = "../../SQBS Common/TossupResult.m"; sourceTree = "<group>"; };
+		28F20F6D14DCB4A900B372EE /* SQBS Scoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQBS Scoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F20F7114DCB4A900B372EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28F20F7314DCB4A900B372EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28F20F7514DCB4A900B372EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28F20F7914DCB4A900B372EE /* SQBS Scoring-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQBS Scoring-Info.plist"; sourceTree = "<group>"; };
+		28F20F7B14DCB4A900B372EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28F20F7D14DCB4A900B372EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28F20F7F14DCB4A900B372EE /* SQBS Scoring-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQBS Scoring-Prefix.pch"; sourceTree = "<group>"; };
+		28F20F8014DCB4A900B372EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28F20F8114DCB4A900B372EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28F20F8314DCB4A900B372EE /* SetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		28F20F8414DCB4A900B372EE /* SetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		28F20F8A14DCB4A900B372EE /* ScoringViewController.h */ = {isa = PBXFileReference; path = ScoringViewController.h; sourceTree = "<group>"; };
+		28F20F8B14DCB4A900B372EE /* ScoringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoringViewController.m; sourceTree = "<group>"; };
+		28F20F9214DCB4A900B372EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SetupViewController_iPhone.xib; sourceTree = "<group>"; };
+		28F20F9814DCB4A900B372EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScoringViewController_iPhone.xib; sourceTree = "<group>"; };
+		28F20F9B14DCB4A900B372EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScoringViewController_iPad.xib; sourceTree = "<group>"; };
+		28F20FA214DCB4C300B372EE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		28F20FA414DCB4C700B372EE /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		28F20FA614DCB4CF00B372EE /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+		28F20FAA14DCB61600B372EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SetupViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F20F6A14DCB4A900B372EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F20F7214DCB4A900B372EE /* UIKit.framework in Frameworks */,
+				28F20F7414DCB4A900B372EE /* Foundation.framework in Frameworks */,
+				28F20F7614DCB4A900B372EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A6D08314DD8477005C42DC /* Bonjour Support */ = {
+			isa = PBXGroup;
+			children = (
+				28A6D08514DD84A7005C42DC /* Connection.h */,
+				28A6D08614DD84A7005C42DC /* Connection.m */,
+				28A6D08714DD84A7005C42DC /* ConnectionDelegate.h */,
+				28A6D08814DD84A7005C42DC /* Server.h */,
+				28A6D08914DD84A7005C42DC /* Server.m */,
+				285C1CE614E07B5400DE792F /* ServerDelegate.h */,
+				28A6D08A14DD84A7005C42DC /* ServerBrowser.h */,
+				28A6D08B14DD84A7005C42DC /* ServerBrowser.m */,
+				28A6D08C14DD84A7005C42DC /* ServerBrowserDelegate.h */,
+			);
+			name = "Bonjour Support";
+			sourceTree = "<group>";
+		};
+		28F02FA114EC091C00E07BE3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				28F02F9114EC08E200E07BE3 /* Constants.h */,
+				28F02F9214EC08FE00E07BE3 /* GameFileContents.h */,
+				28F02F9314EC08FE00E07BE3 /* GameFileContents.m */,
+				28F02F9414EC08FE00E07BE3 /* GameResult.h */,
+				28F02F9514EC08FE00E07BE3 /* GameResult.m */,
+				28F02F9614EC08FE00E07BE3 /* PointsResult.h */,
+				28F02F9714EC08FE00E07BE3 /* PointsResult.m */,
+				28F02F9814EC08FE00E07BE3 /* PublishedTournament.h */,
+				28F02F9914EC08FE00E07BE3 /* PublishedTournament.m */,
+				28F02F9A14EC08FE00E07BE3 /* TossupResult.h */,
+				28F02F9B14EC08FE00E07BE3 /* TossupResult.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		28F20F6214DCB4A900B372EE = {
+			isa = PBXGroup;
+			children = (
+				28F20F7714DCB4A900B372EE /* SQBS Scoring */,
+				28F20FB014DCB7ED00B372EE /* Images */,
+				28F20F7014DCB4A900B372EE /* Frameworks */,
+				28F20F6E14DCB4A900B372EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F20F6E14DCB4A900B372EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F20F6D14DCB4A900B372EE /* SQBS Scoring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F20F7014DCB4A900B372EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28F20F7114DCB4A900B372EE /* UIKit.framework */,
+				28F20F7314DCB4A900B372EE /* Foundation.framework */,
+				28F20F7514DCB4A900B372EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F20F7714DCB4A900B372EE /* SQBS Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				28F02FA114EC091C00E07BE3 /* Common */,
+				28F20F8014DCB4A900B372EE /* AppDelegate.h */,
+				28F20F8114DCB4A900B372EE /* AppDelegate.m */,
+				28F20F8314DCB4A900B372EE /* SetupViewController.h */,
+				28F20F8414DCB4A900B372EE /* SetupViewController.m */,
+				28F20F9114DCB4A900B372EE /* SetupViewController_iPhone.xib */,
+				28F20FA914DCB61600B372EE /* SetupViewController_iPad.xib */,
+				28F20F8A14DCB4A900B372EE /* ScoringViewController.h */,
+				28F20F8B14DCB4A900B372EE /* ScoringViewController.m */,
+				28F20F9714DCB4A900B372EE /* ScoringViewController_iPhone.xib */,
+				28F20F9A14DCB4A900B372EE /* ScoringViewController_iPad.xib */,
+				28A6D08314DD8477005C42DC /* Bonjour Support */,
+				28F20F7814DCB4A900B372EE /* Supporting Files */,
+			);
+			path = "SQBS Scoring";
+			sourceTree = "<group>";
+		};
+		28F20F7814DCB4A900B372EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F20F7914DCB4A900B372EE /* SQBS Scoring-Info.plist */,
+				28F20F7A14DCB4A900B372EE /* InfoPlist.strings */,
+				28F20F7D14DCB4A900B372EE /* main.m */,
+				28F20F7F14DCB4A900B372EE /* SQBS Scoring-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F20FB014DCB7ED00B372EE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				284F5C7914EDBA4A00448CA4 /* scoringTab.png */,
+				284F5C7A14EDBA4A00448CA4 /* setupTab.png */,
+				2842BBD614EB60AF004834E2 /* trash.png */,
+				28F20FA614DCB4CF00B372EE /* Icon-72.png */,
+				28F20FA414DCB4C700B372EE /* Icon@2x.png */,
+				28F20FA214DCB4C300B372EE /* Icon.png */,
+			);
+			name = Images;
+			path = "SQBS Scoring";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F20F6C14DCB4A900B372EE /* SQBS Scoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F20F9F14DCB4A900B372EE /* Build configuration list for PBXNativeTarget "SQBS Scoring" */;
+			buildPhases = (
+				28F20F6914DCB4A900B372EE /* Sources */,
+				28F20F6A14DCB4A900B372EE /* Frameworks */,
+				28F20F6B14DCB4A900B372EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQBS Scoring";
+			productName = "SQBS Scoring";
+			productReference = 28F20F6D14DCB4A900B372EE /* SQBS Scoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F20F6414DCB4A900B372EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 28F20F6714DCB4A900B372EE /* Build configuration list for PBXProject "SQBS Scoring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28F20F6214DCB4A900B372EE;
+			productRefGroup = 28F20F6E14DCB4A900B372EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F20F6C14DCB4A900B372EE /* SQBS Scoring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F20F6B14DCB4A900B372EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F20F7C14DCB4A900B372EE /* InfoPlist.strings in Resources */,
+				28F20F9314DCB4A900B372EE /* SetupViewController_iPhone.xib in Resources */,
+				28F20F9614DCB4A900B372EE /* SetupViewController_iPad.xib in Resources */,
+				28F20F9914DCB4A900B372EE /* ScoringViewController_iPhone.xib in Resources */,
+				28F20F9C14DCB4A900B372EE /* ScoringViewController_iPad.xib in Resources */,
+				28F20FA314DCB4C300B372EE /* Icon.png in Resources */,
+				28F20FA514DCB4C700B372EE /* Icon@2x.png in Resources */,
+				28F20FA714DCB4CF00B372EE /* Icon-72.png in Resources */,
+				28F20FAB14DCB61600B372EE /* SetupViewController_iPad.xib in Resources */,
+				2842BBD714EB60AF004834E2 /* trash.png in Resources */,
+				284F5C7B14EDBA4A00448CA4 /* scoringTab.png in Resources */,
+				284F5C7C14EDBA4A00448CA4 /* setupTab.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F20F6914DCB4A900B372EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F20F7E14DCB4A900B372EE /* main.m in Sources */,
+				28F20F8214DCB4A900B372EE /* AppDelegate.m in Sources */,
+				28F20F8514DCB4A900B372EE /* SetupViewController.m in Sources */,
+				28F20F8C14DCB4A900B372EE /* ScoringViewController.m in Sources */,
+				28A6D08E14DD84A7005C42DC /* Connection.m in Sources */,
+				28A6D08F14DD84A7005C42DC /* Server.m in Sources */,
+				28A6D09014DD84A7005C42DC /* ServerBrowser.m in Sources */,
+				28F02F9C14EC08FE00E07BE3 /* GameFileContents.m in Sources */,
+				28F02F9D14EC08FE00E07BE3 /* GameResult.m in Sources */,
+				28F02F9E14EC08FE00E07BE3 /* PointsResult.m in Sources */,
+				28F02F9F14EC08FE00E07BE3 /* PublishedTournament.m in Sources */,
+				28F02FA014EC08FE00E07BE3 /* TossupResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28F20F7A14DCB4A900B372EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F20F7B14DCB4A900B372EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28F20F9114DCB4A900B372EE /* SetupViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F20F9214DCB4A900B372EE /* en */,
+			);
+			name = SetupViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		28F20F9414DCB4A900B372EE /* SetupViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = SetupViewController_iPad.xib;
+			path = "/Users/neil/Documents/Development/SQBS/SQBS Scoring/SQBS Scoring";
+			sourceTree = "<absolute>";
+		};
+		28F20F9714DCB4A900B372EE /* ScoringViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F20F9814DCB4A900B372EE /* en */,
+			);
+			name = ScoringViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		28F20F9A14DCB4A900B372EE /* ScoringViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F20F9B14DCB4A900B372EE /* en */,
+			);
+			name = ScoringViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		28F20FA914DCB61600B372EE /* SetupViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F20FAA14DCB61600B372EE /* en */,
+			);
+			name = SetupViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F20F9D14DCB4A900B372EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28F20F9E14DCB4A900B372EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28F20FA014DCB4A900B372EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQBS Scoring/SQBS Scoring-Prefix.pch";
+				INFOPLIST_FILE = "SQBS Scoring/SQBS Scoring-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28F20FA114DCB4A900B372EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQBS Scoring/SQBS Scoring-Prefix.pch";
+				INFOPLIST_FILE = "SQBS Scoring/SQBS Scoring-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F20F6714DCB4A900B372EE /* Build configuration list for PBXProject "SQBS Scoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F20F9D14DCB4A900B372EE /* Debug */,
+				28F20F9E14DCB4A900B372EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F20F9F14DCB4A900B372EE /* Build configuration list for PBXNativeTarget "SQBS Scoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F20FA014DCB4A900B372EE /* Debug */,
+				28F20FA114DCB4A900B372EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28F20F6414DCB4A900B372EE /* Project object */;
+}

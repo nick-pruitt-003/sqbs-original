@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Tournament Setup</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    </head>
+    <body>
+        <h2>Tournament Setup</h2>
+        
+        <p>
+        After creating a new tournament, several options are available to modify the 
+        statistics for the tournament.  Some options become unavailable once games have 
+        been entered, so the user should be aware of the characteristics of the 
+        tournament beforehand.
+        </p>
+        <p>
+        The first field, &ldquo;Tournament Name&rdquo;, contains the name of the tournament, which 
+        will appear in generated web reports. Note that this name does not have to be 
+        the name given to the save file.
+        </p>
+        <p>
+        Under &ldquo;Question Values&rdquo;, place a checkmark beside the question values that 
+        will be used in the tournament. The actual value of the questions can be entered 
+        in the fields beside the checkboxes. SQBS recognizes the first field as a &ldquo;power&rdquo;, 
+        the second field as a normal tossup value, the third field as a negative value, 
+        and the fourth as a spare question value. By default, the first three boxes are 
+        checked with values of 15, 10, and &ndash;5, respectively. Note that values cannot be 
+        unselected once there is an instance of that value in a game.
+        </p>
+        <p>
+        &ldquo;Stat Tracking&rdquo; affects how information is displayed in generated reports. If 
+        &ldquo;Track Toss-Ups Heard&rdquo; is selected, the number of tossups heard can be entered 
+        in the Game Entry screen, and reports will include the number of tossups heard 
+        and points per tossup heard.  If &ldquo;Track Power and Neg Stats&rdquo; is selected, the 
+        ratio of powers to negs will be displayed, using the definition of power and 
+        neg from the Question Values list.  If &ldquo;Track Lightning Round Stats&rdquo; is selected, 
+        a new field appears in the <a href="GameEntry.html">Game Entry</a> screen and lightning round stats appear 
+        in the reports. Note that the lightning round checkbox cannot be <i>unselected</i> if 
+        lightning round data has been entered in a game.  Finally, selecting 
+        &ldquo;Use Divisions&rdquo; makes the Divisions field available, described below.
+        </p>
+        <p>
+        Select the method of handling bonuses under &ldquo;Bonus Conversion Tracking&rdquo;.  If 
+        &ldquo;None&rdquo;, no bonus information will be kept and it will be assumed that the total 
+        game score is the sum of tossup points (and lightning round points, if applicable). 
+        If &ldquo;Automatic&rdquo; (the default), the program automatically calculates the bonus 
+        conversion: the number of bonuses heard will equal the number of tossups earned, 
+        and the bonus points equals the difference remaining when tossup and lightning 
+        points are subtracted from the total game score. If &ldquo;Manual&rdquo; is selected, the 
+        user must enter the number of bonuses heard and number of bonus points.  For 
+        &ldquo;Manual Hear, Auto Points&rdquo;, bonus points are calculated as with the &ldquo;Automatic&rdquo; 
+        method, but the user manually enters the number of bonuses heard (useful if a 
+        format has some tossups that do not lead to bonuses). &ldquo;Manual with Bouncebacks&rdquo; 
+        creates the bounceback bonus fields, allowing manual entering of all bonus and 
+        bounceback statistics. Finally, &ldquo;Auto with Bouncebacks&rdquo; 
+        creates the bounceback bonus fields and automatically calculates bounceback heard (potential points) 
+        and points scored. Bonus points need to be entered manually. NOTE: this option is only available 
+        only Mac version of SQBS. If the Tournament file is SavedAs Windows&dash;compatible format this setting reverts to
+        &ldquo;Manual with Bouncebacks&rdquo;.
+        </p>
+        <p>
+        If &ldquo;Use Divisions&rdquo; was selected earlier, the Divisions field appears on the 
+        Tournament Setup screen. Enter the names of the divisions, one per line. Once 
+        division names have been entered, the division of a particular team becomes 
+        an option in the <a href="Rosters.html">Roster Entry</a>. Note that divisions can be changed in the 
+        middle of a tournament (for example, shuffling preliminary divisions into 
+        playoff brackets), but any prior information about divisions will be lost 
+        once a new set of divisions is created.
+        </p>
+        <p>
+        Finally, a field is available to select the maximum numbers of seats in play 
+        on a side at one time. By default, there are 4 players maximum per side. 
+        This option triggers how many names on a roster get registered with one game 
+        played by default on the <a href="GameEntry.html">Game Entry</a> screen. The number of games (or half-games) 
+        a player actually has can still be manually overridden in the game entry 
+        screen. Note that this option is not available in the Windows version, and 
+        will revert to the default (4) for Windows&dash;compatible files.
+        </p>
+        
+    </body>
+    
+</html>

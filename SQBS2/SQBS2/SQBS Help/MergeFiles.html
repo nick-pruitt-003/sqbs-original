@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Merging Tournament Files</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    </head>
+    
+    <body>
+        
+        <h3>Merging Tournament Files</h3>
+        
+        <p>
+        Multiple files created for a single Tournament can have game results merged into a single file using the &ldquo;Merge Files...&rdquo; command in the 
+        File Menu. each file for merging must have the same tournament setup (question value, bonus conversion, etc.). The team list for  
+        each merge file should be identical - same number of teams and teams in the same order. Each corresponding team entry must have: 
+        a) same name, b) same division, if using divisions, c) same number of players, d) players listed in same order and e) each corresponding
+        player name spelling the same. The &ldquo;Merge Files...&rdquo; command will verify this before doing the merge.
+        </p>
+        <p>
+        <b>NOTES:</b>
+        <br>
+        - One of the merge files may contain extra teams as long as the extra team entries are at the end of the list.
+        <br>
+        - If the division a team is assigned to changes - as is sometimes the case between preliminary matches and final matches, make sure 
+        the team&rsquo;s division assignments are the same for all files to be merged.
+        <br>
+        - The contents of the second file is merged into the first file. If the first file needs to be kept in it pre-merge state, duplicate 
+        the file before doing the merge and use the copy as the first file of the command.
+        <br>
+        - The Merge Files command is only able to merge two (2) tournament files at a time. If more than two files need to be merged, the command 
+        should be used repeatedly.
+        </p>
+        <p>
+        To merge tournament files, start by opening the tournament files to be merged.
+        </p>
+        <p>
+        Select a tournament (make it the front window) to be the 
+        &ldquo;Base Tournament&rdquo;. As the name suggests, this is the tournament that the merge file must match (for setup and team list) and
+        will contain the merged game entries.
+        </p>
+        <p>
+        Invoke the &ldquo;Merge Files...&rdquo; command. This will put up a dialog window. The dialog window names the &ldquo;Base Tournament&rdquo; 
+        and has a list of tournament files matching currently open tournaments. Select the file for merging and click &ldquo;Merge&rdquo; button.
+        The dialog will close and the games in the selected file will be merged into the &ldquo;Base Tournament&rdquo;.
+        </p>
+        <p>
+        Newly merged game results will appear after the game results for the &ldquo;Base Tournament&rdquo;. The <a href="SortSetting.html"> game sorting</a> option
+        can be used to re-order the combined game results.
+        </p>
+        
+    </body>
+    
+</html>

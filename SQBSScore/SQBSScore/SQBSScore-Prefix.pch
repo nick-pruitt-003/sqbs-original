@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'SQBSScore' target in the 'SQBSScore' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+
+#ifdef DEBUG
+#define DebugLog( s, ... ) NSLog( @"%p %@:%d %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#define TestLog( s, ... ) NSLog( @"%@", [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DebugLog( s, ... )
+#define TestLog( s, ... )
+#endif
+
+#import <Availability.h>
+#undef  __AVAILABILITY_INTERNAL_WEAK_IMPORT
+#define __AVAILABILITY_INTERNAL_WEAK_IMPORT \
+__attribute__((weak_import,deprecated("API newer than Deployment Target.")))

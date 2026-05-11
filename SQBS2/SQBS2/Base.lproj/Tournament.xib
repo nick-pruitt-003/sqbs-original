@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="101000" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="Tournament">
+            <connections>
+                <outlet property="mainToolBar" destination="142" id="192"/>
+                <outlet property="myTargetView" destination="137" id="193"/>
+                <outlet property="viewSelectorSegmentedControl" destination="151" id="189"/>
+                <outlet property="window" destination="7" id="55"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Tournament Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" animationBehavior="default" id="7" userLabel="TournamentWindow">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="0.0" y="779" width="960" height="640"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <value key="minSize" type="size" width="960" height="640"/>
+            <view key="contentView" id="8">
+                <rect key="frame" x="0.0" y="0.0" width="960" height="640"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="137" userLabel="MainView">
+                        <rect key="frame" x="12" y="14" width="936" height="584"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </customView>
+                    <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="151" userLabel="ViewSelector">
+                        <rect key="frame" x="200.5" y="604" width="569" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <segmentedCell key="cell" borderStyle="border" alignment="left" segmentDistribution="fill" style="texturedRounded" trackingMode="selectOne" id="152">
+                            <font key="font" metaFont="system"/>
+                            <segments>
+                                <segment label="Tournament Setup" width="140" selected="YES"/>
+                                <segment label="Game Entry" width="140" tag="1"/>
+                                <segment label="Reports" width="140"/>
+                                <segment label="Settings" width="140"/>
+                            </segments>
+                        </segmentedCell>
+                        <accessibility description="Select View"/>
+                        <connections>
+                            <action selector="viewSelectorChangeAction:" target="-2" id="154"/>
+                        </connections>
+                    </segmentedControl>
+                </subviews>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="6657B328-C33D-49B3-AE59-A146AFE1F947" explicitIdentifier="tournamentToolbar" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconAndLabel" sizeMode="regular" id="142">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="8D8FE487-B7DB-4AC8-9BB9-EBA95A17D6DD" explicitItemIdentifier="NewTournament" label="New" paletteLabel="New" toolTip="Create new a tournament" tag="101" image="newTournament" id="158">
+                        <connections>
+                            <action selector="newDocument:" target="-1" id="185"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="C9DB6B52-D747-4A97-88C5-878FDB07BDAF" explicitItemIdentifier="OpenTournament" label="Open" paletteLabel="Open" toolTip="Open an existing tournament file." tag="2" image="openTournament" id="157">
+                        <connections>
+                            <action selector="openDocument:" target="-1" id="183"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="3707C901-AF50-4149-BB7C-8C09C28B1E51" explicitItemIdentifier="SaveTournament" label="Save" paletteLabel="Save" toolTip="Save current tournament." tag="105" image="saveTournament" id="161">
+                        <connections>
+                            <action selector="saveDocument:" target="-1" id="186"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSeparatorItem" id="163"/>
+                    <toolbarItem implicitItemIdentifier="99431148-1A92-4530-95A7-6E9636EABF37" explicitItemIdentifier="SortGames" label="Sort Games" paletteLabel="Sort Games" toolTip="Sort games" tag="301" image="sort" selectable="YES" id="178" customClass="SortGameToolbarItem">
+                        <size key="minSize" width="54" height="32"/>
+                        <size key="maxSize" width="55" height="32"/>
+                        <popUpButton key="view" tag="301" imageHugsTitle="YES" id="172">
+                            <rect key="frame" x="7" y="14" width="54" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <popUpButtonCell key="cell" type="recessed" bezelStyle="recessed" image="sort" imagePosition="only" alignment="left" lineBreakMode="truncatingTail" imageScaling="proportionallyDown" inset="2" pullsDown="YES" selectedItem="175" id="173">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                <font key="font" metaFont="systemBold" size="12"/>
+                                <menu key="menu" title="Sort Order" id="174">
+                                    <items>
+                                        <menuItem image="sort" hidden="YES" id="175"/>
+                                        <menuItem title="By Game ID" id="176"/>
+                                        <menuItem title="By Round" id="177"/>
+                                        <menuItem title="By Round, Game ID" id="179"/>
+                                    </items>
+                                </menu>
+                            </popUpButtonCell>
+                            <connections>
+                                <action selector="gameSortOrderAction:" target="-2" id="180"/>
+                            </connections>
+                        </popUpButton>
+                        <connections>
+                            <outlet property="tournamentDelegate" destination="-2" id="206"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="7315BA47-92F3-4D7C-82AC-865452C8492D" explicitItemIdentifier="WebReports" label="Web Reports" paletteLabel="Web Reports" toolTip="Create Full Web Reports" tag="201" image="webReports" id="167">
+                        <connections>
+                            <action selector="createWebReports:" target="-2" id="168"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="7CA257A2-3A3A-4A9C-8916-BFF9B47F48A9" explicitItemIdentifier="ImportTeamInfo" label="Import" paletteLabel="Import" toolTip="Import team info from file" tag="5" image="importTeam" id="164">
+                        <connections>
+                            <action selector="importTeamInfoAction:" target="-2" id="165"/>
+                        </connections>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="158"/>
+                    <toolbarItem reference="157"/>
+                    <toolbarItem reference="161"/>
+                    <toolbarItem reference="163"/>
+                    <toolbarItem reference="178"/>
+                    <toolbarItem reference="167"/>
+                    <toolbarItem reference="163"/>
+                    <toolbarItem reference="164"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="195"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="120"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="importTeam" width="32" height="32"/>
+        <image name="newTournament" width="32" height="32"/>
+        <image name="openTournament" width="32" height="32"/>
+        <image name="saveTournament" width="24" height="24"/>
+        <image name="sort" width="32" height="32"/>
+        <image name="webReports" width="32" height="32"/>
+    </resources>
+</document>

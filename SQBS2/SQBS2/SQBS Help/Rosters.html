@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Roster Entry</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    </head>
+    
+    <body>
+        
+        <h2>Roster Entry</h2>
+        
+        <p>
+        The bottom half of the <a href="TournamentSetup.html">Tournament Setup</a> screen contains
+        the roster of players. To manually enter teams, press  &ldquo;+&rdquo; to make a new team.
+        The team name, exhibition status, division (if applicable) and player names can
+        then be entered. The fields can be accessed left-to-right by pressing Tab.
+        To delete a team; highlight the row by selecting it; press &ldquo;&ndash;&rdquo; button.
+        Note that a warning will appear.
+        </p>
+        <p>
+        Teams can be sorted alphabetically by Team Name (ascending or descending) by clicking on
+        the Team Name column header.
+        </p>
+        <p>
+        Rosters can be imported from a text file (or saved tournament file) by clicking &ldquo;Import&rdquo; 
+        from the top toolbar. Select the file, and the imported roster should appear in the fields, 
+        overriding any teams entered prior. The text file should have, on separate lines in order, 
+        the team name, the division name (if applicable) and the player names (up to 12). Teams 
+        should be separated by a line with a period, and the end of the file should have a line 
+        with a tilde (~). For example, a tournament with two teams and divisions should appear as the
+        examples below.
+        </p>
+        
+        <p>Example of a text file of rosters (no divisions) that can be imported using &ldquo;Import Team&rdquo; in the toolbar.</p>
+        
+        <p>
+        <table border=0  width="100%" style="color:#000000;font-family:courier;font-size:12px;">
+            <tr><td>Team 1</td></tr>
+            <tr><td>Player 1</td></tr>
+            <tr><td>Player 2</td></tr>
+            <tr><td>Player 3</td></tr>
+            <tr><td>Player 4</td></tr>
+            <tr><td>Player 5</td></tr>
+            <tr><td>.</td></tr>
+            
+            <tr><td>Team 2</td></tr>
+            <tr><td>Player 1</td></tr>
+            <tr><td>Player 2</td></tr>
+            <tr><td>Player 3</td></tr>
+            <tr><td>Player 4</td></tr>
+            <tr><td>Player 5</td></tr>
+            <tr><td>Player 6</td></tr>
+            <tr><td>.</td></tr>
+            <tr><td>~</td></tr>
+        </table>
+        </p>
+        
+        <p>Example of a text file of rosters (with divisions) that can be imported using &ldquo;Import Team&rdquo; in the toolbar.</p>
+        
+        <p>
+        <table border=0  width="100%" style="color:#000000;font-family:courier;font-size:12px;">
+            <tr><td>Team 1</td></tr>
+            <tr><td>Division A</td></tr>
+            <tr><td>Player 1</td></tr>
+            <tr><td>Player 2</td></tr>
+            <tr><td>Player 3</td></tr>
+            <tr><td>Player 4</td></tr>
+            <tr><td>Player 5</td></tr>
+            <tr><td>Player 6</td></tr>
+            <tr><td>.</td></tr>
+            
+            <tr><td>Team 2</td></tr>
+            <tr><td>Division B</td></tr>
+            <tr><td>Player 1</td></tr>
+            <tr><td>Player 2</td></tr>
+            <tr><td>Player 3</td></tr>
+            <tr><td>Player 4</td></tr>
+            <tr><td>Player 5</td></tr>
+            <tr><td>.</td></tr>
+            <tr><td>~</td></tr>
+        </table>
+        </p>
+        
+        <p>
+        You may add or delete division names, or correct spelling errors any time before entering game information. Changes made in the divisions
+        text field will not show up in the team entry table until a save of division names is done. Unchecking &ldquo;Using Divisions&rdquo; once games are entered
+        is allowed, however all division assignments for team is deleted (warning provided). Once games are entered, division names can be added. Deleting or
+        changing names can be done, however verify that each team is correctly assigned the correct division name.
+        </p>
+        
+        <p>
+        Once games are entered, spelling errors for players names can be corrected, however players cannot be added, deleted, nor their order changed.
+        </p>
+        
+    </body>
+    
+</html>

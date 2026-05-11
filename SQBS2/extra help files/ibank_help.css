@@ -1,0 +1,231 @@
+/* CSS Document */
+
+body {
+	background: #ffffff;
+	color: #000000;
+	font: 12px "Lucida Grande", sans-serif;
+	line-height: 150%;
+}
+
+h1 {
+	background: url(images/fading_line.gif) bottom right no-repeat;
+	color: #666666;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 2px 0 7px 0;
+	margin: 10px 0 10px 0;
+	line-height: normal;
+}
+
+h2 {
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0 5px 0;
+	margin: 0 0 10px 0;
+	clear: right;
+}
+
+h3 {
+	color: #333333;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px 0 5px 0;
+	margin: 0 0 10px 0;
+	clear: right;
+}
+
+p {
+	font-size: 12px;
+	padding: 5px;
+	margin: 10px;
+}
+
+a {
+	color: #987B36;
+	text-decoration: underline;
+}
+
+p>img, li>img, h2>img, dt>img { vertical-align: middle }
+
+strong { color: #333333; }
+
+dt {
+	color: #333333;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px;
+	margin: 10px;
+}
+
+dd {
+	font-size: 12px;
+	padding: 5px;
+	margin: 10px 10px 10px 25px;
+}
+
+ul { list-style-image: url(images/bullet.gif); }
+
+li>p { 
+	margin-left: 0;
+	padding: 0;
+}
+
+.small, body.splash .small {
+	font-size: 10px;
+	font-weight: normal;
+	color: gray;
+}
+
+.green {
+	color: #339900;
+	font-weight: bold;
+}
+
+.red {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.yellow {
+	color: #fbc200;
+	font-weight: bold;
+}
+
+.orange {
+	color: #ff8500;
+	font-weight: bold;
+}
+
+.gray {
+	font-weight: bold;
+	color: #666666;
+}
+
+.path {
+	font-family: Courier, monospace;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 110%;
+	color: #585858;
+	padding-right: 2px;
+}
+
+.note {
+	display: block;
+	background: #FFFFF7 url(images/tip.gif) no-repeat 7px center;
+	color: #333333;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 18px;
+	padding: 7px 7px 7px 78px;
+	min-height: 32px;
+	border-top: 2px solid #DFB33A;
+	border-bottom: 2px solid #DFB33A;
+	clear: both;
+}
+
+img.left {
+	float: left;
+	clear: left;
+	padding: 5px 5px 5px 0;
+}
+
+img.right {
+	float: right;
+	clear: right;
+	padding: 5px 0 5px 5px;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+}
+
+table p { line-height: 150%; }
+
+/* Index Page */
+
+body.splash { background: #000000 url(images/index_bg.jpg) center 100px no-repeat; }
+
+body.splash p, body.splash a {
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+body.splash #links, body.splash #updated { 
+	position: relative;
+	top: 460px;
+}
+
+body.splash a:hover { text-decoration: underline }
+
+/* Table of Contents */
+
+h1.toc {
+	color: white;
+	font-size: 18px;
+	background: #333333 url(images/toc_bg.gif) top left repeat-x;
+	height: 27px;
+	padding: 5px 10px;
+	margin: 10px 0 10px 0;
+	line-height: normal;
+	border: 0;
+	margin: 0 -8px;
+}
+
+ul.toc { list-style-image: none; }
+
+ul.toc a {
+	text-decoration: none;
+	color: #333333;
+}
+
+ul.toc a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+ul.toc, ul.toc li {
+	list-style-type: none;
+	list-style-image: none; 
+	padding: 0;
+	margin: 5px;
+}
+
+ul.toc li ul, ul.toc li ul li {
+	list-style-type: none;
+	list-style-image: none; 
+	padding: 0;
+	margin: 5px 5px 5px 17px;
+	text-indent: -10px;
+}
+
+ul.toc li img { padding-right: 4px; }
+
+/* New Features Page */
+
+#new_features {
+	list-style: none;
+	padding: 0;
+}
+
+#new_features li {
+	min-height: 42px;
+	margin-bottom: 18px;
+}
+
+#new_features li img {
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	padding-top: 2px;
+	margin: 0;
+}
+
+#new_features li p {
+	margin-left: 47px;
+}
