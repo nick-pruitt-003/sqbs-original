@@ -4,9 +4,9 @@ This repository contains the original Objective-C source code for **SQBS**, a Ma
 
 ## Credits
 
-SQBS was created by **Chris Borglum, Ben Chamberlayne, and Neil Smith**. All original work is theirs.
+SQBS was created by **Chris Sewell** and created for Mac and Updated by **Ben Smith and Neil Smith**. All original work is theirs.
 
-This source is archived here with permission from the authors. Use is subject to the same terms they have always applied to SQBS: **give credit, don't sell it.**
+This source is archived here with permission from the authors. Use is subject to the same terms they have always applied to SQBS: **Free Software, this software is not for sale or to be expanded upon without crediting the original authors.**
 
 ## What's Here
 
