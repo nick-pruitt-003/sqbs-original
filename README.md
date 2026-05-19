@@ -1,4 +1,4 @@
-# SQBS — Science Quiz Bowl Scoring (Original Source)
+# SQBS — Sewell's Quiz Bowl Statistics (Original Source)
 
 This repository contains the original Objective-C source code for **SQBS**, a Mac and iOS quiz bowl tournament scoring application.
 
