@@ -24,6 +24,14 @@ check_universal() {
   done
 }
 
+# Only "--install" (or no argument) is valid; reject anything else up front
+# so a typo doesn't silently skip the install after a full build.
+if [ -n "$1" ] && [ "$1" != "--install" ]; then
+  echo "ERROR: unknown argument: $1" >&2
+  echo "Usage: $0 [--install]" >&2
+  exit 1
+fi
+
 cd "$(dirname "$0")/SQBS2"
 DERIVED="$(pwd)/build"
 
