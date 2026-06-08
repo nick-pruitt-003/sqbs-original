@@ -12,6 +12,18 @@
 #   ./build-silicon.sh --install   # build, then install to /Applications/SQBS-original.app
 set -e
 
+# Verify a Mach-O binary is a universal arm64 + x86_64 build; fail fast if not.
+check_universal() {
+  archs=$(lipo -archs "$1")
+  echo "Architectures ($1): $archs"
+  for need in arm64 x86_64; do
+    case " $archs " in
+      *" $need "*) ;;
+      *) echo "ERROR: missing $need slice in $1 (got: $archs)" >&2; exit 1 ;;
+    esac
+  done
+}
+
 cd "$(dirname "$0")/SQBS2"
 DERIVED="$(pwd)/build"
 
@@ -26,12 +38,12 @@ xcodebuild \
 
 APP="$DERIVED/Build/Products/Release/SQBS.app"
 echo "Built: $APP"
-lipo -archs "$APP/Contents/MacOS/SQBS"
+check_universal "$APP/Contents/MacOS/SQBS"
 
 if [ "$1" = "--install" ]; then
   DEST="/Applications/SQBS-original.app"
   rm -rf "$DEST"
   cp -R "$APP" "$DEST"
   echo "Installed -> $DEST"
-  lipo -archs "$DEST/Contents/MacOS/SQBS"
+  check_universal "$DEST/Contents/MacOS/SQBS"
 fi
