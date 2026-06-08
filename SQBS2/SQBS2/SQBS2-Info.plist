@@ -62,7 +62,7 @@
 	<key>CFBundleSignature</key>
 	<string>sqbs</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>1</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.trivia-games</string>
 	<key>LSMinimumSystemVersion</key>
